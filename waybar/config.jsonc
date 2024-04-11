@@ -110,7 +110,7 @@
   },
 	"network": {
     "interface": "wlp2s0",
-    "format": "󰤨   {bandwidthDownBits}   {bandwidthUpBits} ",
+    "format": "{bandwidthDownBits}   {bandwidthUpBits} ",
     "on-click": "alacritty -e nmtui",
     "tooltip": false,
     "interval": 5
