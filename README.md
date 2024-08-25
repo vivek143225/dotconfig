@@ -7,7 +7,7 @@ makepkg -si
 
 
 
-paru -S hyprland alacritty waybar wlogout nwg-drawer nwg-look blueberry ncdu hyprpaper network-manager-applet blueman firefox
+paru -S zsh hyprland alacritty waybar wlogout nwg-drawer nwg-look blueberry ncdu hyprpaper network-manager-applet blueman firefox
 polkit-gnome papirus-icon-theme wev
 
 #Theming
