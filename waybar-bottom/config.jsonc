@@ -7,7 +7,7 @@
   "modules-right": ["tray", "network", "battery", "pulseaudio", "clock"],
 
   "custom/start": {
-    "format": "󰀻",
+    "format": "",
     "tooltip": false,
     "on-click": "wofi -show drun"
   },
