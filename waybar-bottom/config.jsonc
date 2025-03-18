@@ -1,0 +1,70 @@
+{
+  "layer": "top",
+  "position": "bottom",
+  "height": 35,
+  "modules-left": ["custom/start", "hyprland/workspaces"],
+  //"modules-center": ["clock"],
+  "modules-right": ["tray", "network", "battery", "pulseaudio", "clock"],
+
+  "custom/start": {
+    "format": "󰀻",
+    "tooltip": false,
+    "on-click": "rofi -show drun"
+  },
+
+  "hyprland/workspaces": {
+        "active-only": false,
+        "all-outputs": true,
+        "disable-scroll": false,
+        "on-scroll-up": "hyprctl dispatch workspace -1",
+        "on-scroll-down": "hyprctl dispatch workspace +1",
+		"format": "{icon}",
+		"on-click": "activate",
+		"format-icons": {
+			"urgent": "",
+			"active": "",
+			"default": "󰧞",
+    "sort-by-number": true
+    },
+    },
+
+  "clock": {
+    "format": "{:%I:%M %p  |  %A, %d %b}",
+    "tooltip-format": "{:%A, %d %B %Y}"
+  },
+
+  "tray": {
+    "icon-size": 18
+  },
+
+  "network": {
+    "format-wifi": "  {essid} ({signalStrength}%)",
+    "format-ethernet": " {ipaddr}",
+    "format-disconnected": " No Internet"
+  },
+
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-full": "  {capacity}%"
+  },
+
+  "pulseaudio": {
+  "format": "{icon}   {volume}%",
+  "tooltip": false,
+  "format-muted": "",
+  "on-click": "pamixer -t",
+  "on-scroll-up": "pamixer -i 5",
+  "on-scroll-down": "pamixer -d 5",
+  "scroll-step": 5,
+  "format-icons": {
+  "headphone": "",
+  "hands-free": "",
+  "headset": "",
+  "phone": "",
+  "portable": "",
+  "car": "",
+  "default": ["", "", ""]
+        }
+  },
+  }

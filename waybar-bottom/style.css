@@ -1,0 +1,79 @@
+* {
+  /*font-family: "Segoe UI", sans-serif;*/
+  font-family: Iosevka, FontAwesome, Noto Sans CJK;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+window#waybar {
+  background: rgba(40, 40, 40, 0.8); /* Dark semi-transparent */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+#custom-start {
+  font-size: 20px;
+  padding: 4px 10px;
+  margin: 0 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+#custom-start:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#workspaces {
+  padding: 0 5px;
+}
+
+#workspaces button {
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  margin: 2px;
+}
+
+/*#workspaces button.active {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}*/
+#workspaces {
+	background: rgba(40, 40, 40, 0.8);
+	margin: 5px 5px 5px 5px;
+  padding: 0px 5px 0px 5px;
+	border-radius: 16px;
+  border: solid 0px #f4d9e1;
+  font-weight: normal;
+  font-style: normal;
+}
+#workspaces button {
+    padding: 0px 5px;
+    border-radius: 16px;
+    color: #928374;
+}
+
+#workspaces button.active {
+    color: #f4d9e1;
+    background-color: transparent;
+    border-radius: 16px;
+}
+
+#workspaces button:hover {
+	background-color: #E6B9C6;
+	color: black;
+	border-radius: 16px;
+}
+#clock {
+  padding: 0 15px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#tray, #network, #battery, #pulseaudio {
+  padding: 0 10px;
+}
+
+#network.disconnected {
+  color: red;
+}
