@@ -38,7 +38,7 @@
   },
 
   "network": {
-    "format-wifi": "  {essid} ({signalStrength}%)",
+    "format-wifi": "  {essid}  ({signalStrength}%)",
     "format-ethernet": " {ipaddr}",
     "format-disconnected": " No Internet"
   },
