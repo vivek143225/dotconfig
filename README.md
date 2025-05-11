@@ -4,7 +4,7 @@ sudo pacman -S --needed base-devel git && git clone https://aur.archlinux.org/pa
 ```
 ## Required Packages
 ```
-paru -S --needed zsh ly git wget hyprland alacritty waybar wofi wlogout nwg-look ncdu hyprpaper network-manager-applet pavucontrol blueman firefox zen-browser-bin polkit-gnome papirus-icon-theme wev lohit-fonts ttf-meslo-nerd thunar libnotify hyprshot swaync mission-center
+paru -S --needed zsh ly git wget hyprland alacritty waybar wofi wlogout nwg-look ncdu hyprpaper hyperlock network-manager-applet pavucontrol blueman firefox zen-browser-bin polkit-gnome papirus-icon-theme wev lohit-fonts ttf-meslo-nerd thunar libnotify hyprshot swaync mission-center
 ```
 ## Theming
 [(https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
